@@ -1,0 +1,16 @@
+
+
+POST http://localhost:3000/envios/
+
+{
+    "destino": "SFE",
+    "email": "test2@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/envios/pendientes
+
+###
+
+PUT http://localhost:3000/envios//entregado
